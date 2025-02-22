@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "sass": "sass --watch src/sass/styles.scss:dist/css/styles.css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
