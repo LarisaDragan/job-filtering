@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2016", "DOM"], // Add other libraries if needed
+    "jsx": "react-jsx", // Ensures React JSX works
+    "esModuleInterop": true, // TypeScript resolve modules the same way as Node.js, allowing JSON imports
+    "moduleResolution": "node", // Required for smooth interop with ES modules
+    "resolveJsonModule": true, // Allows importing JSON as modules
+    "strict": true, // Optional, but recommended for better type-checking
+    "skipLibCheck": true, // Optional, can speed up the build process
+    "forceConsistentCasingInFileNames": true // Ensures consistent casing
+  },
+  "include": [
+    "src/**/*" // Adjust if your files are elsewhere
+  ]
+}
