@@ -1,6 +1,7 @@
 {
   "name": "job-listings",
   "private": true,
+  "homepage": "https://larisadragan.github.io/job-filtering",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +9,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sass": "sass --watch src/sass/styles.scss:dist/css/styles.css"
+    "sass": "sass --watch src/sass/styles.scss:dist/css/styles.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -22,6 +25,7 @@
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "sass": "^1.85.0",
     "typescript": "~5.7.2",
