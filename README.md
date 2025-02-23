@@ -26,6 +26,10 @@ Challenge project by Frontend Mentor.
 ![job_listings](image.png)
 ![ajob_listings_small_screen](image-1.png)
 
+# Solution
+
+The app is live on https://larisadragan.github.io/job-filtering/
+
 ## Installation
 
 1. Install dependencies:
