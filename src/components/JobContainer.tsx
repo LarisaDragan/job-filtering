@@ -5,6 +5,8 @@ import FilterRow from "./FilterRow";
 import "./style/styles.scss";
 
 const JobContainer = () => {
+  const baseURL = import.meta.env.VITE_BASE_URL || "/";
+
   const [filters, setFilters] = useState<string[]>([]);
 
   const handleAddFilter = (newFilter: string) => {
@@ -41,7 +43,7 @@ const JobContainer = () => {
       {filteredJobs.map((job: JobListing) => (
         <div key={job.id} className="card">
           <div className="left-side">
-            <img alt="company-logo" src={job.logo} />
+            <img alt="company-logo" src={`${baseURL}${job.logo}`} />
             <div className="info-container">
               <div className="card-body">
                 <div className="job-company">{job.company}</div>

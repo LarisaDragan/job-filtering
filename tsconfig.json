@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
+    "module": "esnext",
     "lib": ["ES2016", "DOM"], // Add other libraries if needed
     "jsx": "react-jsx", // Ensures React JSX works
     "esModuleInterop": true, // TypeScript resolve modules the same way as Node.js, allowing JSON imports
