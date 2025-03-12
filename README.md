@@ -23,7 +23,7 @@ Challenge project by Frontend Mentor.
 
 ## Screenshots
 
-![job_listings]([image](https://github.com/user-attachments/assets/1a4e26d4-b9bc-4161-920e-82832def29ff)
+![image](https://github.com/user-attachments/assets/1a4e26d4-b9bc-4161-920e-82832def29ff)
 
 
 # Solution
