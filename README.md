@@ -14,23 +14,23 @@ Challenge project by Frontend Mentor.
   - **Tools**: React, Sass, Vue, Django, RoR (Ruby on Rails)
 - Responsive design for various screen sizes.
 
-## Technologies Used
+### Technologies Used
 
 - React
 - TypeScript
 - SCSS (Sass)
 - JSON for data storage
 
-## Screenshots
+#### Screenshots
 
 ![image](https://github.com/user-attachments/assets/1a4e26d4-b9bc-4161-920e-82832def29ff)
 
 
-# Solution
+####### Solution
 
 The app is live on https://larisadragan.github.io/job-filtering/
 
-## Installation
+######### Installation
 
 1. Install dependencies:
 
